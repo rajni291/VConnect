@@ -1,0 +1,64 @@
+.header-row{
+padding: 10px;
+}
+.board-row{
+    padding: 10px;
+}
+.leaderboard{
+    height: 240px;
+    overflow-y: scroll
+}
+.result{
+    height: 60px;
+    background-color: #ffc40954;
+}
+.result-title{
+    font-size: 20px;
+    height: 60px;
+}
+.result-content{
+    text-align: center;
+    background-color: #2f6aff2e ;
+}
+.fun-title{
+    font-size: 16px;
+    padding: 6px;
+}
+.question{
+   background-color:  #ff000021
+}
+.rank-table{
+    margin: 0 auto;
+}
+.board-color{
+background-color: #ff000033;
+height: 60px;
+text-align: center;
+}
+.quiz-message{
+    text-align: center;
+}
+.question-label{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px
+}
+.score-container{
+    background-color: #adff2f2e;
+    height: 75%;
+}
+.score-container ion-item {
+    --background: transparent;
+}
+.error-icon{
+    height: 100px;
+}
+.error-div{
+    margin-top: 25%;
+    text-align: center;
+    color: #6b1687;
+}
+.right ion-item{
+    --background: greenyellow;
+}
+

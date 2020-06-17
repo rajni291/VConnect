@@ -1,0 +1,61 @@
+.activity-page{
+    padding: 10px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.tile-position{
+    padding: 10px;
+    margin-bottom: 30px
+}
+.tile{
+    border: 1px greenyellow solid;
+    padding: 10px;
+    background: #adff2fa8;
+    width: 150px;
+    border-radius: 6px;
+}
+.title{
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 5;
+    background-color: #e85a4f52;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #ffca22;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 2px;
+    transform: translateY(-64%);
+    position: absolute;
+    z-index: 5;
+}
+.second-section{
+    padding-top: 25px;
+}
+.activity-icon{
+    height: 120px
+}
+ion-icon.selectIcon.ios.hydrated {
+    color: yellow !important;
+}
+ion-icon.deselectIcon.ios.hydrated {
+    color: white !important;
+}
+.title-position{
+    height: 30px;
+    text-align: center;
+    background-color: #ff000052;
+    padding-top: 6px;
+}
+.Activities-Heading{
+    margin-left: 100px;
+}
+

@@ -1,0 +1,7 @@
+{
+  "name": "we-connect",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

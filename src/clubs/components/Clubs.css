@@ -1,0 +1,150 @@
+.club-page{
+   padding: 10px;
+}
+.my-club{
+    height: inherit;
+    text-align: center;
+    font-size: 20px;
+    color: #040c65;
+    height: 475px;
+}
+.my-slide{
+    padding: 10px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.clubs{
+    width: 130px;
+    margin: 18px;
+    height: 170px;
+    border: 1px red solid;
+}
+
+.swiper-pagination-bullet{
+    background-color: red;
+}
+.club-header{
+    color: #040c65;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.club-text{
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.club-icons{
+    right: 7px;
+    margin-top: -12px;
+    position: absolute;
+}
+.add-icon{
+    font-size: 40px;
+    color: blueviolet;
+    float: right;
+}
+.slide-container{
+    padding-top: 7%;
+    flex-wrap: wrap;
+    display: flex;
+    height: inherit
+}
+.group-icon{
+    font-size: 145px;
+}
+.help-icon{
+    position: absolute;
+    margin-top: 28px;
+    font-size: 28px;
+    transform: translate(-320%)
+}
+.no-group{
+    padding: 10%;
+}
+.club-popoup-body{
+    padding: 30px;
+    height: 100%;
+    display: flex;
+}
+.or-text{
+    font-size: 25px;
+}
+.icon-size{
+    font-size: 50px;
+    color:blueviolet
+}
+.club-modal-css .modal-wrapper{
+    height: 180px;
+    width: 225px;
+    position: absolute;
+    display: block
+}
+.option1{
+    display: inline-grid;
+    margin: 10px
+}
+.create-header{
+    text-align: center;
+    font-size: 20px;
+    color: #040c65;
+}
+.create-back{
+    font-size: 40px;
+    color: blueviolet;
+    position: absolute;
+    margin-top: -9px;
+}
+.create-body{
+   padding-top: 10%;
+}
+.create-button{
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    position: absolute
+}
+.post-header{
+    padding-top: 18px;
+}
+.post-input{
+    border: 1px red solid;
+}
+.chat-name{
+    text-transform: capitalize;
+    font-size: 12px;
+}
+.followers{
+    position: absolute;
+    right: 7px;
+    margin-top: -21px
+}
+.explore-body{
+    display: flex;
+    flex-wrap: wrap;
+    height: 430px;
+    overflow-y: scroll; 
+}
+.icon-size1{
+    color: blueviolet;
+    font-size: 30px;
+}
+.icon-position{
+    transform: translateX(50px);
+}
+/* .icon-color{
+    background-color: chartreuse;
+} */
+.club-follow{
+    background-color: chartreuse;
+}
+div[aria-disabled = true]
+{
+  pointer-events: none;
+  opacity: 0.7;
+}
